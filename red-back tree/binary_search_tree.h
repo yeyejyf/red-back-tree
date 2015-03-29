@@ -19,4 +19,8 @@ struct Node{
     Node(Node<T> *parent, const T &value):parent(parent), value(value){}
 };
 
+class BinarySearchTree{
+    Node<long> *root;
+};
+
 #endif /* defined(__red_back_tree__binary_search_tree__) */
